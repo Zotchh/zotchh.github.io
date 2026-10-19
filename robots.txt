@@ -1,0 +1,3 @@
+User-agent: *
+# Let search engines list this page, but not index the CV PDFs themselves.
+Disallow: /*.pdf$

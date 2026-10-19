@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jérôme Ceccaldi – Software &amp; Data Engineer</title>
+  <meta name="description" content="Jérôme Ceccaldi – Software &amp; Data Engineer in Lausanne. Laravel/PHP, React/TypeScript, Python, Kubernetes. CV in English and French.">
+  <meta property="og:title" content="Jérôme Ceccaldi – Software &amp; Data Engineer">
+  <meta property="og:description" content="CV in English and French. Laravel/PHP · React/TypeScript · Python · Kubernetes. Lausanne, Switzerland.">
+  <meta property="og:type" content="profile">
+  <style>
+    :root {
+      --ink: #1d2433;
+      --muted: #5b6475;
+      --accent: #2a4b7c;        /* same blue as the CV headings */
+      --rule: #d7dce5;
+      --bg: #ffffff;
+      --button-bg: #2a4b7c;
+      --button-ink: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #e6e9ef;
+        --muted: #a3abba;
+        --accent: #8fb0e3;
+        --rule: #2e3646;
+        --bg: #141922;
+        --button-bg: #8fb0e3;
+        --button-ink: #10151d;
+      }
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font: 17px/1.55 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    main {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 18vh 1.25rem 4rem;
+    }
+    h1 { font-size: 2.1rem; line-height: 1.15; margin: 0; letter-spacing: -0.01em; }
+    .role { color: var(--accent); font-size: 1.2rem; margin: .35rem 0 0; }
+    .meta { color: var(--muted); margin: .9rem 0 0; }
+    hr { border: 0; border-top: 1px solid var(--rule); margin: 2rem 0; }
+    h2 {
+      font-size: .8rem; font-weight: 700; text-transform: uppercase;
+      color: var(--accent); margin: 0 0 1rem;
+    }
+    .downloads { display: flex; flex-wrap: wrap; gap: .75rem; }
+    .btn {
+      display: inline-flex; align-items: center; gap: .5rem;
+      padding: .7rem 1.1rem; border-radius: 6px;
+      background: var(--button-bg); color: var(--button-ink);
+      text-decoration: none; font-weight: 600;
+    }
+    .btn:hover, .btn:focus-visible { filter: brightness(1.1); }
+    .btn:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+    .btn small { font-weight: 400; opacity: .8; }
+    .links { list-style: none; padding: 0; margin: 0; }
+    .links a { color: var(--accent); }
+    footer { color: var(--muted); font-size: .85rem; margin-top: 3rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Jérôme Ceccaldi</h1>
+    <p class="role">Software &amp; Data Engineer</p>
+    <p class="meta">Laravel/PHP · React/TypeScript · Python · Kubernetes<br>Lausanne, Switzerland · EPFL MSc Computer Science</p>
+
+    <hr>
+
+    <h2>CV</h2>
+    <div class="downloads">
+      <a class="btn" href="Jerome_Ceccaldi_CV_EN.pdf" hreflang="en">English <small>PDF</small></a>
+      <a class="btn" href="Jerome_Ceccaldi_CV_FR.pdf" hreflang="fr" lang="fr">Français <small>PDF</small></a>
+    </div>
+
+    <hr>
+
+    <h2>Contact</h2>
+    <ul class="links">
+      <li><a href="https://www.linkedin.com/in/jerome-ceccaldi/" rel="me">LinkedIn</a></li>
+    </ul>
+
+    <footer>Email address in the CV. · Adresse e-mail dans le CV.</footer>
+  </main>
+</body>
+</html>
